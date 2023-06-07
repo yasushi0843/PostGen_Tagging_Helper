@@ -14,16 +14,16 @@ Stable Diffusionなどの画像生成AIで生成した画像をXnView MPで閲�
 以下の手順はWindowsでpythonとgitが事前にインストールされている環境をを想定しています。  
 本ツールのインストール用のフォルダを作成して、そのフォルダの中でターミナルを開いて以下のコマンドを実行してください。ターミナルはエクスプローラで作成したフォルダへ行き、右クリックをするとコンテキストメニューの中から開くことができます。
 ```
-git clone https://github.com/yasushi0843/test.git
-cd test
+git clone https://github.com/yasushi0843/PostGen_Tagging_Helper.git
+cd PostGen_Tagging_Helper
 pip install -r requirements.txt
 ```
 venv環境を作成してのインストールは以下の通りです
 ```
-git clone https://github.com/yasushi0843/test.git
+git clone https://github.com/yasushi0843/PostGen_Tagging_Helper.git
 python -m venv venv
 .\venv\Scripts\activate
-cd test
+cd PostGen_Tagging_Helper
 pip install -r requirements.txt
 ```
 venv環境を作成した場合は作成したvenv環境を有効にしてから本スクリプトを実行する必要があります。venvを有効にするには、本ツールのインストール用のフォルダで`.\venv\Scripts\activate`を実行してvenv環境を有効にしてから本スクリプトを実行してください。
