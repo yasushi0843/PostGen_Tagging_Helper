@@ -92,7 +92,7 @@ for file in tqdm(files):
         else:
             tags.append([])
 
-if not len(files) == len(prompts) == len(tags):
+if args.sub and (args.prompt and len(files) != len(prompts) or args.tag and len(files) != len(tags)):
     print('Unexpected error occurred')
     sys.exit()
 
